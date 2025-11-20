@@ -7,11 +7,11 @@ import requests  # Importa módulo para hacer peticiones HTTP
 # CONFIG MQTT
 # ==========================
 
-MQTT_BROKER = "localhost"  # Dirección IP o hostname del broker MQTT
-MQTT_PORT = 1883  # Puerto del broker MQTT
-MQTT_TOPIC = "sensores"  # Tópico MQTT al que se suscribirá
-MQTT_USERNAME = "subscriber"  # Usuario para autenticación MQTT
-MQTT_PASSWORD = "sub123"  # Contraseña para autenticación MQTT
+MQTT_BROKER = "localhost"
+MQTT_PORT = 1883
+MQTT_TOPIC = "sensores"
+MQTT_USERNAME = "subscriber"   
+MQTT_PASSWORD = "sub123"     
 
 # ==========================
 # CONFIG NODE-RED

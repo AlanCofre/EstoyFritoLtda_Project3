@@ -30,8 +30,6 @@ try:
         else:
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ✗ Error: {response.status_code}")
         
-        time.sleep(1)
-        
 except KeyboardInterrupt:
     print("\n\nEnvío detenido por el usuario")
 except Exception as e:
