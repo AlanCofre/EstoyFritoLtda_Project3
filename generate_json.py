@@ -1,10 +1,6 @@
 import numpy as np
 
 def generate_sensor_data():
-    """
-    Genera datos de sensores ambientales simulados
-    Retorna un diccionario con estructura JSON completa
-    """
     return {
         'dUMA': {
             'environment': {
