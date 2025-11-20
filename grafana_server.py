@@ -3,15 +3,7 @@ from flask_cors import CORS
 import time
 import threading
 from datetime import datetime
-
-try:
-    from generate_json import generate_sensor_data
-except ImportError:
-    print("="*50)
-    print("ERROR: No se encontró el archivo 'generate_json.py'")
-    print("Asegúrate de que esté en la misma carpeta que este script.")
-    print("="*50)
-    exit()
+from generate_json import generate_sensor_data
 
 app = Flask(__name__)
 CORS(app)
